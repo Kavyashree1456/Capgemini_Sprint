@@ -1,0 +1,227 @@
+<html>
+<head>
+<title>TestNG:  Chrome Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Chrome Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 21 15:19:19 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>1053 seconds (1053385 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScripts.OrganizationTest.editOrganization()'><b>editOrganization</b><br>Test class: testScripts.OrganizationTest</td>
+<td></td>
+<td>23</td>
+<td>testScripts.OrganizationTest@217ed35e</td></tr>
+<tr>
+<td title='testScripts.ContactTest.verifyContactsPageLoads()'><b>verifyContactsPageLoads</b><br>Test class: testScripts.ContactTest</td>
+<td></td>
+<td>1</td>
+<td>testScripts.ContactTest@3eb25e1a</td></tr>
+<tr>
+<td title='testScripts.OrganizationTest.createOrganization()'><b>createOrganization</b><br>Test class: testScripts.OrganizationTest</td>
+<td></td>
+<td>19</td>
+<td>testScripts.OrganizationTest@217ed35e</td></tr>
+<tr>
+<td title='testScripts.OrganizationTest.organizationToContactTest()'><b>organizationToContactTest</b><br>Test class: testScripts.OrganizationTest</td>
+<td></td>
+<td>18</td>
+<td>testScripts.OrganizationTest@217ed35e</td></tr>
+<tr>
+<td title='testScripts.ContactTest.verifyCreateContactWithoutMandatoryField()'><b>verifyCreateContactWithoutMandatoryField</b><br>Test class: testScripts.ContactTest<br/>
+<a href="#Output-2090167770" onClick='toggleBox("Output-2090167770", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2090167770" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2090167770">
+Error Message: Last Name cannot be empty<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>testScripts.ContactTest@3eb25e1a</td></tr>
+<tr>
+<td title='testScripts.OrganizationTest.searchOrganization()'><b>searchOrganization</b><br>Test class: testScripts.OrganizationTest</td>
+<td></td>
+<td>19</td>
+<td>testScripts.OrganizationTest@217ed35e</td></tr>
+<tr>
+<td title='testScripts.OrganizationTest.verifyOrganizationsPageLoads()'><b>verifyOrganizationsPageLoads</b><br>Test class: testScripts.OrganizationTest</td>
+<td></td>
+<td>16</td>
+<td>testScripts.OrganizationTest@217ed35e</td></tr>
+<tr>
+<td title='testScripts.HomeTest.loginToHomeIntegrationTest()'><b>loginToHomeIntegrationTest</b><br>Test class: testScripts.HomeTest</td>
+<td></td>
+<td>29</td>
+<td>testScripts.HomeTest@477b4cdf</td></tr>
+<tr>
+<td title='testScripts.ContactTest.createAndSearchContactIntegration()'><b>createAndSearchContactIntegration</b><br>Test class: testScripts.ContactTest</td>
+<td></td>
+<td>7</td>
+<td>testScripts.ContactTest@3eb25e1a</td></tr>
+<tr>
+<td title='testScripts.ContactTest.verifyContactDetailsPersistAfterRefresh()'><b>verifyContactDetailsPersistAfterRefresh</b><br>Test class: testScripts.ContactTest<br/>
+<a href="#Output-414453734" onClick='toggleBox("Output-414453734", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-414453734" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-414453734">
+PASS: Contact details persisted after refresh: contact1792576807796@example.com<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>testScripts.ContactTest@3eb25e1a</td></tr>
+<tr>
+<td title='testScripts.ContactTest.verifyEditContact()'><b>verifyEditContact</b><br>Test class: testScripts.ContactTest<br/>
+<a href="#Output-1877334646" onClick='toggleBox("Output-1877334646", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1877334646" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1877334646">
+PASS: Contact edited successfully<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>testScripts.ContactTest@3eb25e1a</td></tr>
+<tr>
+<td title='testScripts.OrganizationTest.systemOrganizationFlow()'><b>systemOrganizationFlow</b><br>Test class: testScripts.OrganizationTest</td>
+<td></td>
+<td>62</td>
+<td>testScripts.OrganizationTest@217ed35e</td></tr>
+<tr>
+<td title='testScripts.CalendarTest.addmeeting()'><b>addmeeting</b><br>Test class: testScripts.CalendarTest</td>
+<td></td>
+<td>5</td>
+<td>testScripts.CalendarTest@77c2494c</td></tr>
+<tr>
+<td title='testScripts.HomeTest.verifyAddModuleWidgetWithoutTitle()'><b>verifyAddModuleWidgetWithoutTitle</b><br>Test class: testScripts.HomeTest<br/>
+<a href="#Output-1192166967" onClick='toggleBox("Output-1192166967", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1192166967" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1192166967">
+Validation alert: Please enter Window Title.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testScripts.HomeTest@477b4cdf</td></tr>
+<tr>
+<td title='testScripts.CalendarTest.verifyCompleteCalendarEventFlow()'><b>verifyCompleteCalendarEventFlow</b><br>Test class: testScripts.CalendarTest</td>
+<td></td>
+<td>22</td>
+<td>testScripts.CalendarTest@77c2494c</td></tr>
+<tr>
+<td title='testScripts.HomeTest.createNotebookFromExcel()'><b>createNotebookFromExcel</b><br>Test class: testScripts.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>testScripts.HomeTest@477b4cdf</td></tr>
+<tr>
+<td title='testScripts.OrganizationTest.createAndSearchOrganizationIntegration()'><b>createAndSearchOrganizationIntegration</b><br>Test class: testScripts.OrganizationTest</td>
+<td></td>
+<td>27</td>
+<td>testScripts.OrganizationTest@217ed35e</td></tr>
+<tr>
+<td title='testScripts.HomeTest.addModule()'><b>addModule</b><br>Test class: testScripts.HomeTest</td>
+<td></td>
+<td>1</td>
+<td>testScripts.HomeTest@477b4cdf</td></tr>
+<tr>
+<td title='testScripts.CalendarTest.updateOwnerName()'><b>updateOwnerName</b><br>Test class: testScripts.CalendarTest<br/>
+<a href="#Output-1637373091" onClick='toggleBox("Output-1637373091", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1637373091" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1637373091">
+Owner updated successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testScripts.CalendarTest@77c2494c</td></tr>
+<tr>
+<td title='testScripts.OrganizationTest.verifyCreateOrganizationWithoutMandatoryField()'><b>verifyCreateOrganizationWithoutMandatoryField</b><br>Test class: testScripts.OrganizationTest<br/>
+<a href="#Output-285964343" onClick='toggleBox("Output-285964343", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-285964343" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-285964343">
+Error Message: Organization Name cannot be empty<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>testScripts.OrganizationTest@217ed35e</td></tr>
+<tr>
+<td title='testScripts.ContactTest.createContact()'><b>createContact</b><br>Test class: testScripts.ContactTest</td>
+<td></td>
+<td>6</td>
+<td>testScripts.ContactTest@3eb25e1a</td></tr>
+</table><p>
+</body>
+</html>

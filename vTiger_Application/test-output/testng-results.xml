@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Before Suite]]>
+    </line>
+    <line>
+      <![CDATA[Before Test]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[Error Message: Organization Name cannot be empty]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Contact details persisted after refresh: contact1792660312965@example.com]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[Error Message: Last Name cannot be empty]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[Owner updated successfully.]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[After Test]]>
+    </line>
+    <line>
+      <![CDATA[After Suite]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-22T14:30:46 IST" name="vTiger Suite" finished-at="2026-10-22T14:49:09 IST" duration-ms="1102811">
+    <groups>
+      <group name="Functional">
+        <method signature="CalendarTest.addmeeting()[pri:0, instance:testScripts.CalendarTest@229f66ed]" name="addmeeting" class="testScripts.CalendarTest"/>
+        <method signature="CalendarTest.updateOwnerName()[pri:0, instance:testScripts.CalendarTest@229f66ed]" name="updateOwnerName" class="testScripts.CalendarTest"/>
+        <method signature="ContactTest.createContact()[pri:0, instance:testScripts.ContactTest@217ed35e]" name="createContact" class="testScripts.ContactTest"/>
+        <method signature="HomeTest.addModule()[pri:0, instance:testScripts.HomeTest@7dcf94f8]" name="addModule" class="testScripts.HomeTest"/>
+        <method signature="HomeTest.createNotebookFromExcel()[pri:0, instance:testScripts.HomeTest@7dcf94f8]" name="createNotebookFromExcel" class="testScripts.HomeTest"/>
+        <method signature="OrganizationTest.createOrganization()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" name="createOrganization" class="testScripts.OrganizationTest"/>
+        <method signature="OrganizationTest.editOrganization()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" name="editOrganization" class="testScripts.OrganizationTest"/>
+        <method signature="OrganizationTest.searchOrganization()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" name="searchOrganization" class="testScripts.OrganizationTest"/>
+        <method signature="OrganizationTest.verifyCreateOrganizationWithoutMandatoryField()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" name="verifyCreateOrganizationWithoutMandatoryField" class="testScripts.OrganizationTest"/>
+      </group> <!-- Functional -->
+      <group name="Integration">
+        <method signature="ContactTest.createAndSearchContactIntegration()[pri:0, instance:testScripts.ContactTest@217ed35e]" name="createAndSearchContactIntegration" class="testScripts.ContactTest"/>
+        <method signature="HomeTest.loginToHomeIntegrationTest()[pri:0, instance:testScripts.HomeTest@7dcf94f8]" name="loginToHomeIntegrationTest" class="testScripts.HomeTest"/>
+        <method signature="OrganizationTest.createAndSearchOrganizationIntegration()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" name="createAndSearchOrganizationIntegration" class="testScripts.OrganizationTest"/>
+      </group> <!-- Integration -->
+      <group name="Negative">
+        <method signature="ContactTest.verifyCreateContactWithoutMandatoryField()[pri:0, instance:testScripts.ContactTest@217ed35e]" name="verifyCreateContactWithoutMandatoryField" class="testScripts.ContactTest"/>
+        <method signature="HomeTest.verifyAddModuleWidgetWithoutTitle()[pri:0, instance:testScripts.HomeTest@7dcf94f8]" name="verifyAddModuleWidgetWithoutTitle" class="testScripts.HomeTest"/>
+        <method signature="OrganizationTest.verifyCreateOrganizationWithoutMandatoryField()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" name="verifyCreateOrganizationWithoutMandatoryField" class="testScripts.OrganizationTest"/>
+      </group> <!-- Negative -->
+      <group name="Positive">
+        <method signature="CalendarTest.updateOwnerName()[pri:0, instance:testScripts.CalendarTest@229f66ed]" name="updateOwnerName" class="testScripts.CalendarTest"/>
+        <method signature="CalendarTest.verifyCompleteCalendarEventFlow()[pri:0, instance:testScripts.CalendarTest@229f66ed]" name="verifyCompleteCalendarEventFlow" class="testScripts.CalendarTest"/>
+        <method signature="ContactTest.createAndSearchContactIntegration()[pri:0, instance:testScripts.ContactTest@217ed35e]" name="createAndSearchContactIntegration" class="testScripts.ContactTest"/>
+        <method signature="ContactTest.createContact()[pri:0, instance:testScripts.ContactTest@217ed35e]" name="createContact" class="testScripts.ContactTest"/>
+        <method signature="ContactTest.verifyContactDetailsPersistAfterRefresh()[pri:0, instance:testScripts.ContactTest@217ed35e]" name="verifyContactDetailsPersistAfterRefresh" class="testScripts.ContactTest"/>
+        <method signature="ContactTest.verifyContactsPageLoads()[pri:0, instance:testScripts.ContactTest@217ed35e]" name="verifyContactsPageLoads" class="testScripts.ContactTest"/>
+        <method signature="OrganizationTest.createAndSearchOrganizationIntegration()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" name="createAndSearchOrganizationIntegration" class="testScripts.OrganizationTest"/>
+        <method signature="OrganizationTest.createOrganization()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" name="createOrganization" class="testScripts.OrganizationTest"/>
+        <method signature="OrganizationTest.editOrganization()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" name="editOrganization" class="testScripts.OrganizationTest"/>
+        <method signature="OrganizationTest.systemOrganizationFlow()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" name="systemOrganizationFlow" class="testScripts.OrganizationTest"/>
+        <method signature="OrganizationTest.verifyOrganizationsPageLoads()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" name="verifyOrganizationsPageLoads" class="testScripts.OrganizationTest"/>
+      </group> <!-- Positive -->
+      <group name="Smoke">
+        <method signature="ContactTest.verifyContactsPageLoads()[pri:0, instance:testScripts.ContactTest@217ed35e]" name="verifyContactsPageLoads" class="testScripts.ContactTest"/>
+        <method signature="OrganizationTest.organizationToContactTest()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" name="organizationToContactTest" class="testScripts.OrganizationTest"/>
+        <method signature="OrganizationTest.verifyOrganizationsPageLoads()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" name="verifyOrganizationsPageLoads" class="testScripts.OrganizationTest"/>
+      </group> <!-- Smoke -->
+      <group name="System">
+        <method signature="CalendarTest.verifyCompleteCalendarEventFlow()[pri:0, instance:testScripts.CalendarTest@229f66ed]" name="verifyCompleteCalendarEventFlow" class="testScripts.CalendarTest"/>
+        <method signature="ContactTest.verifyContactDetailsPersistAfterRefresh()[pri:0, instance:testScripts.ContactTest@217ed35e]" name="verifyContactDetailsPersistAfterRefresh" class="testScripts.ContactTest"/>
+        <method signature="OrganizationTest.systemOrganizationFlow()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" name="systemOrganizationFlow" class="testScripts.OrganizationTest"/>
+      </group> <!-- System -->
+    </groups>
+    <test started-at="2026-10-22T14:30:46 IST" name="vTiger Regression Test" finished-at="2026-10-22T14:49:09 IST" duration-ms="1102811">
+      <class name="testScripts.HomeTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.HomeTest@7dcf94f8]" started-at="2026-10-22T14:43:42 IST" name="beforeMethod" finished-at="2026-10-22T14:44:28 IST" duration-ms="45943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addModule()[pri:0, instance:testScripts.HomeTest@7dcf94f8]" started-at="2026-10-22T14:44:28 IST" name="addModule" finished-at="2026-10-22T14:44:29 IST" duration-ms="1390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addModule -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.HomeTest@7dcf94f8]" started-at="2026-10-22T14:44:29 IST" name="afterMethod" finished-at="2026-10-22T14:44:29 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.HomeTest@7dcf94f8]" started-at="2026-10-22T14:44:29 IST" name="beforeMethod" finished-at="2026-10-22T14:45:11 IST" duration-ms="41414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createNotebookFromExcel()[pri:0, instance:testScripts.HomeTest@7dcf94f8]" started-at="2026-10-22T14:45:11 IST" name="createNotebookFromExcel" finished-at="2026-10-22T14:45:11 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNotebookFromExcel -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.HomeTest@7dcf94f8]" started-at="2026-10-22T14:45:11 IST" name="afterMethod" finished-at="2026-10-22T14:45:11 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.HomeTest@7dcf94f8]" started-at="2026-10-22T14:45:11 IST" name="beforeMethod" finished-at="2026-10-22T14:45:56 IST" duration-ms="44895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginToHomeIntegrationTest()[pri:0, instance:testScripts.HomeTest@7dcf94f8]" started-at="2026-10-22T14:45:56 IST" name="loginToHomeIntegrationTest" finished-at="2026-10-22T14:45:56 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHomeIntegrationTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.HomeTest@7dcf94f8]" started-at="2026-10-22T14:45:56 IST" name="afterMethod" finished-at="2026-10-22T14:45:57 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.HomeTest@7dcf94f8]" started-at="2026-10-22T14:45:57 IST" name="beforeMethod" finished-at="2026-10-22T14:46:34 IST" duration-ms="36971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAddModuleWidgetWithoutTitle()[pri:0, instance:testScripts.HomeTest@7dcf94f8]" started-at="2026-10-22T14:46:34 IST" name="verifyAddModuleWidgetWithoutTitle" finished-at="2026-10-22T14:46:35 IST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddModuleWidgetWithoutTitle -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.HomeTest@7dcf94f8]" started-at="2026-10-22T14:46:35 IST" name="afterMethod" finished-at="2026-10-22T14:46:35 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testScripts.HomeTest -->
+      <class name="testScripts.OrganizationTest">
+        <test-method is-config="true" signature="dbConnection()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:30:46 IST" name="dbConnection" finished-at="2026-10-22T14:30:46 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Suite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dbConnection -->
+        <test-method is-config="true" signature="bt()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:30:46 IST" name="bt" finished-at="2026-10-22T14:30:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:30:46 IST" name="beforeMethod" finished-at="2026-10-22T14:31:25 IST" duration-ms="39370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createAndSearchOrganizationIntegration()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:31:25 IST" name="createAndSearchOrganizationIntegration" finished-at="2026-10-22T14:31:50 IST" duration-ms="25236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndSearchOrganizationIntegration -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:31:50 IST" name="afterMethod" finished-at="2026-10-22T14:31:51 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:31:51 IST" name="beforeMethod" finished-at="2026-10-22T14:32:40 IST" duration-ms="49475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createOrganization()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:32:40 IST" name="createOrganization" finished-at="2026-10-22T14:32:59 IST" duration-ms="19223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:32:59 IST" name="afterMethod" finished-at="2026-10-22T14:33:00 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:33:00 IST" name="beforeMethod" finished-at="2026-10-22T14:33:39 IST" duration-ms="39452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="editOrganization()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:33:39 IST" name="editOrganization" finished-at="2026-10-22T14:34:00 IST" duration-ms="20928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editOrganization -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:34:00 IST" name="afterMethod" finished-at="2026-10-22T14:34:00 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:34:00 IST" name="beforeMethod" finished-at="2026-10-22T14:34:40 IST" duration-ms="39193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="organizationToContactTest()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:34:40 IST" name="organizationToContactTest" finished-at="2026-10-22T14:34:57 IST" duration-ms="17940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- organizationToContactTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:34:58 IST" name="afterMethod" finished-at="2026-10-22T14:34:58 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:34:58 IST" name="beforeMethod" finished-at="2026-10-22T14:35:37 IST" duration-ms="39301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchOrganization()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:35:37 IST" name="searchOrganization" finished-at="2026-10-22T14:35:55 IST" duration-ms="17809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOrganization -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:35:55 IST" name="afterMethod" finished-at="2026-10-22T14:35:55 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:35:55 IST" name="beforeMethod" finished-at="2026-10-22T14:36:34 IST" duration-ms="39148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="systemOrganizationFlow()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:36:34 IST" name="systemOrganizationFlow" finished-at="2026-10-22T14:37:37 IST" duration-ms="62746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- systemOrganizationFlow -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:37:37 IST" name="afterMethod" finished-at="2026-10-22T14:37:37 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:37:37 IST" name="beforeMethod" finished-at="2026-10-22T14:38:21 IST" duration-ms="43612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyCreateOrganizationWithoutMandatoryField()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:38:21 IST" name="verifyCreateOrganizationWithoutMandatoryField" finished-at="2026-10-22T14:38:39 IST" duration-ms="18029" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Error Message: Organization Name cannot be empty]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCreateOrganizationWithoutMandatoryField -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:38:39 IST" name="afterMethod" finished-at="2026-10-22T14:38:39 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:38:39 IST" name="beforeMethod" finished-at="2026-10-22T14:39:19 IST" duration-ms="39474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyOrganizationsPageLoads()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:39:19 IST" name="verifyOrganizationsPageLoads" finished-at="2026-10-22T14:39:35 IST" duration-ms="16605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrganizationsPageLoads -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:39:35 IST" name="afterMethod" finished-at="2026-10-22T14:39:36 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="at()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:49:09 IST" name="at" finished-at="2026-10-22T14:49:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- at -->
+        <test-method is-config="true" signature="closeConnection()[pri:0, instance:testScripts.OrganizationTest@3fc2959f]" started-at="2026-10-22T14:49:09 IST" name="closeConnection" finished-at="2026-10-22T14:49:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Suite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- testScripts.OrganizationTest -->
+      <class name="testScripts.ContactTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.ContactTest@217ed35e]" started-at="2026-10-22T14:39:36 IST" name="beforeMethod" finished-at="2026-10-22T14:40:17 IST" duration-ms="41637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createAndSearchContactIntegration()[pri:0, instance:testScripts.ContactTest@217ed35e]" started-at="2026-10-22T14:40:17 IST" name="createAndSearchContactIntegration" finished-at="2026-10-22T14:40:25 IST" duration-ms="8122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndSearchContactIntegration -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.ContactTest@217ed35e]" started-at="2026-10-22T14:40:25 IST" name="afterMethod" finished-at="2026-10-22T14:40:26 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.ContactTest@217ed35e]" started-at="2026-10-22T14:40:26 IST" name="beforeMethod" finished-at="2026-10-22T14:41:04 IST" duration-ms="38685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createContact()[pri:0, instance:testScripts.ContactTest@217ed35e]" started-at="2026-10-22T14:41:04 IST" name="createContact" finished-at="2026-10-22T14:41:10 IST" duration-ms="5506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.ContactTest@217ed35e]" started-at="2026-10-22T14:41:10 IST" name="afterMethod" finished-at="2026-10-22T14:41:10 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.ContactTest@217ed35e]" started-at="2026-10-22T14:41:10 IST" name="beforeMethod" finished-at="2026-10-22T14:41:52 IST" duration-ms="42135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyContactDetailsPersistAfterRefresh()[pri:0, instance:testScripts.ContactTest@217ed35e]" started-at="2026-10-22T14:41:52 IST" name="verifyContactDetailsPersistAfterRefresh" finished-at="2026-10-22T14:42:03 IST" duration-ms="10944" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Contact details persisted after refresh: contact1792660312965@example.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyContactDetailsPersistAfterRefresh -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.ContactTest@217ed35e]" started-at="2026-10-22T14:42:03 IST" name="afterMethod" finished-at="2026-10-22T14:42:04 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.ContactTest@217ed35e]" started-at="2026-10-22T14:42:04 IST" name="beforeMethod" finished-at="2026-10-22T14:42:47 IST" duration-ms="43149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyContactsPageLoads()[pri:0, instance:testScripts.ContactTest@217ed35e]" started-at="2026-10-22T14:42:47 IST" name="verifyContactsPageLoads" finished-at="2026-10-22T14:42:49 IST" duration-ms="1737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageLoads -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.ContactTest@217ed35e]" started-at="2026-10-22T14:42:49 IST" name="afterMethod" finished-at="2026-10-22T14:42:49 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.ContactTest@217ed35e]" started-at="2026-10-22T14:42:49 IST" name="beforeMethod" finished-at="2026-10-22T14:43:38 IST" duration-ms="48813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyCreateContactWithoutMandatoryField()[pri:0, instance:testScripts.ContactTest@217ed35e]" started-at="2026-10-22T14:43:38 IST" name="verifyCreateContactWithoutMandatoryField" finished-at="2026-10-22T14:43:41 IST" duration-ms="3762" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Error Message: Last Name cannot be empty]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCreateContactWithoutMandatoryField -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.ContactTest@217ed35e]" started-at="2026-10-22T14:43:41 IST" name="afterMethod" finished-at="2026-10-22T14:43:42 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testScripts.ContactTest -->
+      <class name="testScripts.CalendarTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.CalendarTest@229f66ed]" started-at="2026-10-22T14:46:35 IST" name="beforeMethod" finished-at="2026-10-22T14:47:18 IST" duration-ms="43256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addmeeting()[pri:0, instance:testScripts.CalendarTest@229f66ed]" started-at="2026-10-22T14:47:18 IST" name="addmeeting" finished-at="2026-10-22T14:47:22 IST" duration-ms="4214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addmeeting -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.CalendarTest@229f66ed]" started-at="2026-10-22T14:47:22 IST" name="afterMethod" finished-at="2026-10-22T14:47:23 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.CalendarTest@229f66ed]" started-at="2026-10-22T14:47:23 IST" name="beforeMethod" finished-at="2026-10-22T14:48:05 IST" duration-ms="42749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updateOwnerName()[pri:0, instance:testScripts.CalendarTest@229f66ed]" started-at="2026-10-22T14:48:05 IST" name="updateOwnerName" finished-at="2026-10-22T14:48:09 IST" duration-ms="3844" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Owner updated successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateOwnerName -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.CalendarTest@229f66ed]" started-at="2026-10-22T14:48:09 IST" name="afterMethod" finished-at="2026-10-22T14:48:10 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.CalendarTest@229f66ed]" started-at="2026-10-22T14:48:10 IST" name="beforeMethod" finished-at="2026-10-22T14:48:48 IST" duration-ms="38334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyCompleteCalendarEventFlow()[pri:0, instance:testScripts.CalendarTest@229f66ed]" started-at="2026-10-22T14:48:48 IST" name="verifyCompleteCalendarEventFlow" finished-at="2026-10-22T14:49:08 IST" duration-ms="20315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompleteCalendarEventFlow -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.CalendarTest@229f66ed]" started-at="2026-10-22T14:49:08 IST" name="afterMethod" finished-at="2026-10-22T14:49:09 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testScripts.CalendarTest -->
+    </test> <!-- vTiger Regression Test -->
+  </suite> <!-- vTiger Suite -->
+</testng-results>
