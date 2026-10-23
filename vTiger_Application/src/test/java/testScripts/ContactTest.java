@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 import genericUtility.BaseClass;
 import genericUtility.ExcelUtility;
 import objRepo.ContactPage;
-//
+
 public class ContactTest extends BaseClass{
 	@Test(groups = {"Smoke",  "Positive"})
     public void verifyContactsPageLoads() {
@@ -61,10 +61,6 @@ public void createContact() throws IOException {
     contact.clickSave();
 
 }
-
-
-
-
 
 @Test(groups = { "Negative"})
 public void verifyCreateContactWithoutMandatoryField() throws IOException {
@@ -207,9 +203,6 @@ public void verifyContactDetailsPersistAfterRefresh() throws IOException {
 //    Reporter.log("PASS: Contact edited successfully", true);
 //}
 
-
-
-
 @Test(groups = {"Integration", "Positive"})
 public void createAndSearchContactIntegration() {
 
@@ -239,7 +232,6 @@ public void createAndSearchContactIntegration() {
 //            "Integration failed: Created contact was not found."
 //    );
 }
-
 
 }
 
